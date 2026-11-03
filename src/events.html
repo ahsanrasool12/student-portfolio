@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Clubs Portal - Events</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>University Clubs Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="clubs.html">Clubs</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="join.html">How to Join</a>
+      <a href="highlights.html">Highlights</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Upcoming Events</h2>
+    <p>Mark your calendar for upcoming activities organized by student societies.</p>
+
+    <!-- Category Filter and Sort Controls -->
+    <div class="controls-panel">
+      <div class="filter-group">
+        <span class="control-label">Categories:</span>
+        <a href="#all" class="tab-btn active">All</a>
+        <a href="#tech" class="tab-btn">Technology</a>
+        <a href="#sports" class="tab-btn">Sports</a>
+        <a href="#cultural" class="tab-btn">Cultural</a>
+        <a href="#debates" class="tab-btn">Debates</a>
+        <a href="#arts" class="tab-btn">Arts</a>
+      </div>
+
+      <div class="sort-group">
+        <span class="control-label">Sort by:</span>
+        <a href="#all" class="sort-link active">📅 Date (Chronological)</a>
+      </div>
+    </div>
+
+    <!-- Events List -->
+    <ul class="events-list" id="all">
+      <li class="event-item" id="tech">
+        <div class="event-top">
+          <span class="event-date" id="date-15-dec"><a href="#date-15-dec">15 Dec 2026</a></span>
+          <span class="event-tag tag-tech">Technology</span>
+        </div>
+        <h3>Git &amp; GitHub Workshop</h3>
+        <p class="event-meta">📍 Computer Lab 3 &bull; ⏰ 2:00 PM – 5:00 PM</p>
+        <p>Organized by the Technology Club. Hands-on laboratory session covering branching strategies, pull requests, and resolving merge conflicts.</p>
+      </li>
+
+      <li class="event-item" id="sports">
+        <div class="event-top">
+          <span class="event-date">20 Dec 2026</span>
+          <span class="event-tag tag-sports">Sports</span>
+        </div>
+        <h3>Inter-Department Football Cup</h3>
+        <p class="event-meta">📍 University Sports Ground &bull; ⏰ 10:00 AM – 4:00 PM</p>
+        <p>Organized by the Sports Club. Departmental teams compete for the annual university championship trophy.</p>
+      </li>
+
+      <li class="event-item" id="cultural">
+        <div class="event-top">
+          <span class="event-date">05 Jan 2027</span>
+          <span class="event-tag tag-culture">Cultural</span>
+        </div>
+        <h3>Cultural Night &amp; Music Gala</h3>
+        <p class="event-meta">📍 Main Auditorium &bull; ⏰ 6:00 PM – 9:30 PM</p>
+        <p>Organized by the Cultural Club. Evening of regional folk performances, acoustic student bands, and drama skits.</p>
+      </li>
+
+      <li class="event-item" id="debates">
+        <div class="event-top">
+          <span class="event-date">12 Jan 2027</span>
+          <span class="event-tag tag-debate">Debates</span>
+        </div>
+        <h3>Annual Bilingual Declamation Contest</h3>
+        <p class="event-meta">📍 Seminar Hall A &bull; ⏰ 11:00 AM – 3:00 PM</p>
+        <p>Organized by the Debate Society. Parliamentary debate competition open to speakers across all departments.</p>
+      </li>
+
+      <li class="event-item" id="tech-ai">
+        <div class="event-top">
+          <span class="event-date">18 Jan 2027</span>
+          <span class="event-tag tag-tech">Technology</span>
+        </div>
+        <h3>AI &amp; Robotics Project Showcase</h3>
+        <p class="event-meta">📍 Innovation Center &bull; ⏰ 1:00 PM – 4:30 PM</p>
+        <p>Organized by the ACM Chapter. Live demonstration of autonomous robotics, vision models, and student hardware capstone projects.</p>
+      </li>
+
+      <li class="event-item" id="arts">
+        <div class="event-top">
+          <span class="event-date">25 Jan 2027</span>
+          <span class="event-tag tag-arts">Arts</span>
+        </div>
+        <h3>Campus Photography &amp; Art Exhibition</h3>
+        <p class="event-meta">📍 Central Foyer &amp; Gallery &bull; ⏰ 10:00 AM – 5:00 PM</p>
+        <p>Organized by the Media &amp; Arts Society. Curated photo gallery showcasing university student life, landscape architecture, and digital paintings.</p>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 University Clubs Portal | DevOps Fundamentals</p>
+  </footer>
+</body>
+</html>
