@@ -66,3 +66,69 @@ main p { margin-bottom: 1rem; }
   .home-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
+/* ===== Clubs page (Member 1) ===== */
+.clubs-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.club-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-left: 5px solid #1f3a68;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .clubs-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== Events page (Member 2) ===== */
+.events-list { list-style: none; }
+.event-item {
+  background: #fff;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.event-date {
+  display: inline-block;
+  background: #1f3a68;
+  color: #fff;
+  padding: 0.1rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  margin-bottom: 0.4rem;
+}
+
+@media (max-width: 600px) {
+  .event-item { padding: 0.8rem; }
+}
+
+/* ===== Join page (Member 3) ===== */
+.join-steps { margin: 0 0 1.5rem 1.5rem; }
+.join-steps li { margin-bottom: 0.6rem; }
+.join-info {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.join-info h3 { margin: 0.8rem 0 0.3rem; color: #1f3a68; }
+.join-info ul { margin-left: 1.5rem; }
+
+@media (max-width: 600px) {
+  .join-info { padding: 0.8rem; }
+}
+
+/* ===== Highlights page (Member 4) ===== */
+.highlights-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.highlight-card {
+  background: #fff;
+  padding: 1.2rem;
+  border-top: 5px solid #e0a800;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {
+  .highlights-grid { grid-template-columns: 1fr; }
+}
