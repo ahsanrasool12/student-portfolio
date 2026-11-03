@@ -3,49 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clubs | University Clubs Portal</title>
-    <link rel="stylesheet" href="../styles/style.css">
-    
+  <title>University Clubs Portal - Clubs</title>
+  <link rel="stylesheet" href="../styles/style.css">
 </head>
 <body>
-
-  <header>
-    <div class="header-inner">
-      <a class="logo" href="index.html">🎓 UniClubs</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="clubs.html">Clubs</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="join.html">Join</a></li>
-          <li><a href="highlights.html">Highlights</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="site-header">
+    <h1>University Clubs Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="clubs.html" class="active">Clubs</a>
+      <a href="events.html">Events</a>
+      <a href="join.html">How to Join</a>
+      <a href="highlights.html">Highlights</a>
+    </nav>
   </header>
 
-  <div class="page-banner">
-    <h1>Our Clubs</h1>
-    <p>Find a community that matches your interests.</p>
-  </div>
+  <main>
+    <h2>Club Categories</h2>
+    <p>Explore the different types of clubs available on campus.</p>
 
-  <main class="container">
-    <section>
-      <h2>All Clubs</h2>
-      <div class="grid">
-        <div class="card">
-          <span class="tag">Category</span>
-          <h3>Club Name</h3>
-          <p>Short description of the club.</p>
-          <a class="btn" href="join.html">Join</a>
-        </div>
-      </div>
-    </section>
+    <div class="clubs-grid">
+      <article class="club-card">
+        <h3>Technology Clubs</h3>
+        <p>Coding, robotics, AI and DevOps communities for students who love to build and experiment.</p>
+      </article>
+      <article class="club-card">
+        <h3>Sports Clubs</h3>
+        <p>Cricket, football, badminton and more. Stay active, compete and be part of a team.</p>
+      </article>
+      <article class="club-card">
+        <h3>Cultural Clubs</h3>
+        <p>Music, drama, art and literature societies that celebrate creativity and diversity.</p>
+      </article>
+      <article class="club-card">
+        <h3>Debate Societies</h3>
+        <p>Sharpen public speaking and critical thinking through debates and discussions.</p>
+      </article>
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; 2026 University Clubs Portal · Built by Team 5</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 University Clubs Portal | DevOps Fundamentals</p>
   </footer>
-
 </body>
 </html>
