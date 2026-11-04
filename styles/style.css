@@ -136,3 +136,19 @@ main p { margin-bottom: 1rem; }
 @media (max-width: 600px) {
   .highlights-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== Join page (Member 3) ===== */
+.join-steps { margin: 0 0 1.5rem 1.5rem; }
+.join-steps li { margin-bottom: 0.6rem; }
+.join-info {
+  background: #fff;
+  padding: 1.2rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.join-info h3 { margin: 0.8rem 0 0.3rem; color: #1f3a68; }
+.join-info ul { margin-left: 1.5rem; }
+
+@media (max-width: 600px) {
+  .join-info { padding: 0.8rem; }
+}
